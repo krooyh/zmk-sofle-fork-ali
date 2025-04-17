@@ -36,8 +36,12 @@
         tap-ms = <100>;
     };
 
-    behaviors {
-    };
+   behaviors {
+       mt: mod_tap {
+           flavor = "balanced";
+           #tapping-term-ms = <200>;
+       };
+   };
 
     keymap {
         compatible = "zmk,keymap";
