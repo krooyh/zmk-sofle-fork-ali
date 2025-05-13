@@ -4,7 +4,6 @@ include:
     shield: nice_view_gem
   - board: eyelash_sofle_right
     shield: nice_view_gem
-    cmake-args: -CONFIG_NICE_VIEW_GEM_ANIMATION_MS=32000
   - board: eyelash_sofle_left
     shield: nice_view_gem
     snippet: studio-rpc-usb-uart
