@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '`', s: '~'}
   - Z
   - X
   - C
@@ -263,4 +263,19 @@ layers:
 combos:
 - p: [16, 17]
   k: {t: '[', s: '{'}
+  l: [QWERTY]
+- p: [29, 30]
+  k: (
+  l: [QWERTY]
+- p: [42, 43]
+  k: '{'
+  l: [QWERTY]
+- p: [21, 22]
+  k: {t: ']', s: '}'}
+  l: [QWERTY]
+- p: [34, 35]
+  k: )
+  l: [QWERTY]
+- p: [47, 48]
+  k: '}'
   l: [QWERTY]
