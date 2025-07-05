@@ -53,6 +53,7 @@
    macros {
        macro_arrow: macro_arrow {
            compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
            label = "ARROW_MACRO";
            bindings = <&macro_tap &kp MINUS &kp RIGHT>;
        };
