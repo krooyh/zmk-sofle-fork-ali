@@ -54,7 +54,7 @@
        macro_arrow: macro_arrow {
            compatible = "zmk,behavior-macro";
            label = "ARROW_MACRO";
-           bindings = <&macro_tap &str "->">;
+           bindings = <&macro_tap &kp MINUS &kp RIGHT>;
        };
    };
 
