@@ -55,7 +55,7 @@
            compatible = "zmk,behavior-macro";
            #binding-cells = <0>;
            label = "ARROW_MACRO";
-           bindings = <&macro_tap &kp MINUS &kp RIGHT>;
+           bindings = <&macro_tap &kp MINUS &kp GREATER_THAN>;
        };
    };
 
