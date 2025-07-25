@@ -2,7 +2,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
 #define COMBO(NAME, BINDINGS, KEYPOS) \
   combo_##NAME { \
-    timeout-ms = <30>; \
+    timeout-ms = <35>; \
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
     layers = <0>; \
@@ -46,7 +46,7 @@
    behaviors {
        mt: mod_tap {
            flavor = "balanced";
-           tapping-term-ms = <130>;
+           tapping-term-ms = <200>;
        };
    };
 
