@@ -46,7 +46,7 @@
    behaviors {
        mt: mod_tap {
            flavor = "balanced";
-           tapping-term-ms = <100>;
+           tapping-term-ms = <130>;
        };
    };
 
