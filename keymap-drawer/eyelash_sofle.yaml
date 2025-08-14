@@ -60,7 +60,7 @@ layers:
   - NUMBERS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&hyper'
+  - Sft+Sft+Ctl+LGUI
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
